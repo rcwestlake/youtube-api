@@ -1,7 +1,3 @@
-//my API key AIzaSyC7ZQhFDobGaUbG2i5Q23a0ud6b6BwnT9E
-
-var searchTerm = $('#query').val();
-
 $(document).ready(function() {
 	console.log('js check');
 
@@ -31,8 +27,8 @@ $(document).ready(function() {
 
     var showResults = function(results) {
     	var html = "";
-    	$.each(results, function(index,value) {
-    		html += '<div>' + value.snippet.thumbnails.default + '</div>';
+    	$.each(results.items, function(index,item) {
+    		html += '<div><img src="' + item.snippet.thumbnails.default.url + '"></div>';
     	})
     	$(".photos").html(html);
     }
