@@ -25,7 +25,7 @@ $(document).ready(function() {
     	});
     }
 
-    var showResults = function(results) {
+     var showResults = function(results) {
     	var html = "";
     	$.each(results.items, function(index,item) {
     		html += '<div><img src="' + item.snippet.thumbnails.default.url + '"></div>';
