@@ -2,6 +2,13 @@ body {
 	font-family: Calibri Light, Calibri, sans-serif;
 }
 
+#logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+}
+
 #header {
 	font-size: 50px;
 	text-align: center;
@@ -11,21 +18,28 @@ body {
 
 #author {
 	font-size: 15px;
-	text-align: center;
+	float: right;
+	color: gray;
 }
 
 #query {
-	width: 30%;
 	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 	height: 25px;
 	font-size: 15px;
 
 }
 
 #push {
-	width: 75px;
-	color: red;
-	height: 5px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 375px;
+	background-color: red;
+	color: white;
+	height: 30px;
 }
 
 .photos {
