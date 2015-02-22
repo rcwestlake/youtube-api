@@ -1,0 +1,35 @@
+body {
+	font-family: Calibri Light, Calibri, sans-serif;
+}
+
+#header {
+	font-size: 50px;
+	text-align: center;
+	color: red;
+
+}
+
+#author {
+	font-size: 15px;
+	text-align: center;
+}
+
+#query {
+	width: 30%;
+	display: block;
+	height: 25px;
+	font-size: 15px;
+
+}
+
+#push {
+	width: 75px;
+	color: red;
+	height: 5px;
+}
+
+.photos {
+	display: block;
+	width: 500px;
+
+}

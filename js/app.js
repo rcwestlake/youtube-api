@@ -14,7 +14,8 @@ $(document).ready(function() {
     	var params = {
     			part: 'snippet',
     			key: 'AIzaSyC7ZQhFDobGaUbG2i5Q23a0ud6b6BwnT9E',
-    			q: "basketball",
+    			q: $('#query').val(),
+                maxResults: 25,        
     			
     	};
     	var url = 'https://www.googleapis.com/youtube/v3/search';
@@ -32,6 +33,7 @@ $(document).ready(function() {
     	})
     	$(".photos").html(html);
     }
+
 
     ///used this prior to calling getRequest in above function
     //getRequest();
