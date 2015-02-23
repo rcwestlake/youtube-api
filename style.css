@@ -17,10 +17,15 @@ body {
 
 }
 
+#authorCon {
+     margin-bottom: 45px;   
+}
+
 #author {
 	font-size: 15px;
 	float: right;
 	color: gray;
+   
 }
 
 #query {
@@ -45,17 +50,9 @@ body {
     font-size: 13px;
 }
 
-#search-results > div {
-  margin: 20px;
-  width: 28%;
-  height: 100px;
-  float: left;
-  color: #fff;
-  text-align: center;
-}
 
-.photos {
-	display: block;
-	width: 500px;
+#search-results {
+	float: left;
+    padding-right: 25px;
 
 }
